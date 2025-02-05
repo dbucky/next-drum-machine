@@ -4,7 +4,7 @@ import useSound from 'use-sound';
 
 import styles from './DrumMachine.module.css';
 
-import { SoundEnabledContext } from '../../app/layout';
+import { SoundEnabledContext } from '../SoundEnabledProvider';
 
 const SOUND_SRC = '/909-drums.mp3';
 

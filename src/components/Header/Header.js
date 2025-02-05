@@ -6,7 +6,7 @@ import VisuallyHidden from '../VisuallyHidden';
 import MaxWidthWrapper from '../MaxWidthWrapper';
 import styles from './Header.module.css';
 
-import { SoundEnabledContext } from '../../app/layout';
+import { SoundEnabledContext } from '../SoundEnabledProvider';
 
 function Header() {
   const id = React.useId();
